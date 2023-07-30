@@ -1,0 +1,158 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100%;
+  font-family: 'roboto' ,sans-serif;
+  min-width: 1024px;
+  max-width: 1400px;
+  background: #fafafa;
+}
+nav{
+  min-width: 1024px;
+  max-width: 1400px;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  border-bottom: solid #dbdbdb 1px;
+  display: flex;
+  background: #fafafa;
+}
+.nav-cont{
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+}
+.cont.input{
+  height: 28px;
+  border: solid 1px #dbdbdb;
+  display: flex;
+  align-items: center;
+  background: #fafafa;
+  padding: 50%;
+}
+.cont-input input{
+  border: 0;
+  outline: none;
+  background: #fafafa;
+}
+.iconos{
+  margin: 0;
+    cursor: pointer;
+  
+}
+.iconos .small-logo{
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  cursor: pointer;
+  top: 40px;
+}
+header{
+  width: 60%;
+  margin: auto;
+  transform: translateY(50px);
+  padding: 20px 0;
+}
+.perfil-container{
+  display: flex;
+}
+.perfil-container img{
+  height: 150%;
+  width: 150;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.contenedor-cabezera{
+  margin-left: 100px;
+}
+.cabezera1{
+  width: 350px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  justify-content: space-between;
+  
+}
+.cabezera1 h1{
+  color: #616161;
+  font-weight: 100;
+  font-size: 26px;
+}
+.cabezera1 button{
+  width: 100px;
+  height: 30px;
+  background-color: #dbdbdb;
+  border: solid #dbdbdb 1px;
+  cursor: pointer;
+  border-radius: 13%;
+  
+}
+.cabezera1 svg{
+  cursor: pointer;
+}
+.cabezera2{
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+.cabezera3 h2, 
+.cabezera3 .p-estado{
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.historias{
+  width: 100px;
+  margin-top: 50px;
+  transform: translateX(-45px);
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+}
+.historias_diego img{
+  height: 80px;
+  width: 80%;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.linea{
+  width: 100%;
+  height: 1px;
+  margin: auto;
+  background-color: #dbdbdb;
+}
+.main-nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  margin: auto;
+  padding: 2%;
+}
+.main-nav a{
+  color: #333;
+  text-decoration: none;
+  font-size: 13px;
+}
+main{
+  width: 70%;
+  margin: auto;
+  margin-top: 60px;
+}
+.mainCont_grid{
+  display: grid;
+  grid-template-columns: repeat(3,32%);
+  grid-template-rows: repeat(5,auto);
+  gap: 2%;
+  height: auto;
+}
+.mainCont_grid div > img{
+  width: 100%;
+  cursor: pointer;
+}
