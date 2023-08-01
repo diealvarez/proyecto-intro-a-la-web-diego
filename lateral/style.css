@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'segoe UI', sans-serif;
+}
+.container{
+  display: flex;
+  background: #fff;
+  height: 100vh;
+  width: 100%;
+}
+.sidebar{
+  display: flex;
+  flex-direction: column;
+  flex: 1.5;
+  color: #111;
+  border-right: 1px solid #111;
+  padding: 20px;
+}
+.rightside{
+  display: flex;
+  flex: 8;
+}
+ul li{
+  list-style: none;
+}
+.smoll-logo{
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+}
+.logo span{
+  font-size: 35px;
+  font-weight: 500;
+  font-family: 'billabong', sans-serif;
+  cursor: pointer;
+}
+ul{
+  display: flex;
+  flex-direction: column;
+  gap: 29px;
+  padding: 60px 0px;
+}
+.icons{
+  font-size: 50%;
+}
+li span{
+  font-size: 18px;
+}

@@ -10,54 +10,56 @@ body{
   max-width: 1400px;
   background: #fafafa;
 }
-nav{
-  min-width: 1024px;
-  max-width: 1400px;
-  position: fixed;
+
+.container{
+  display: flex;
+  background: #fff;
+  height: 100vh;
   width: 100%;
-  z-index: 1;
-  border-bottom: solid #dbdbdb 1px;
+}
+.sidebar{
   display: flex;
-  background: #fafafa;
+  flex-direction: column;
+  flex: 1.5;
+  color: #111;
+  border-right: 1px solid #111;
+  padding: 20px;
 }
-.nav-cont{
-  width: 100%;
-  margin: auto;
+.rightside{
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 50px;
+  flex: 8;
 }
-.cont.input{
-  height: 28px;
-  border: solid 1px #dbdbdb;
-  display: flex;
-  align-items: center;
-  background: #fafafa;
-  padding: 50%;
+ul li{
+  list-style: none;
 }
-.cont-input input{
-  border: 0;
-  outline: none;
-  background: #fafafa;
-}
-.iconos{
-  margin: 0;
-    cursor: pointer;
-  
-}
-.iconos .small-logo{
-  width: 25px;
-  height: 25px;
+.smoll-logo{
+  height: 24px;
+  width: 24px;
   border-radius: 50%;
+}
+.logo span{
+  font-size: 35px;
+  font-weight: 500;
+  font-family: 'billabong', sans-serif;
   cursor: pointer;
-  top: 40px;
+}
+ul{
+  display: flex;
+  flex-direction: column;
+  gap: 29px;
+  padding: 60px 0px;
+}
+.icons{
+  font-size: 50%;
+}
+li span{
+  font-size: 18px;
 }
 header{
   width: 60%;
   margin: auto;
   transform: translateY(50px);
-  padding: 20px 0;
+  padding: 50px 0;
 }
 .perfil-container{
   display: flex;
