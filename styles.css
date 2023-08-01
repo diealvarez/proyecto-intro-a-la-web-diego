@@ -8,12 +8,13 @@ body{
   font-family: 'roboto' ,sans-serif;
   min-width: 1024px;
   max-width: 1400px;
-  background: #fafafa;
+  background: #fafafa;;
+
 }
 
 .container{
   display: flex;
-  background: #fff;
+  background: #fff;;
   height: 100vh;
   width: 100%;
 }
@@ -65,10 +66,13 @@ header{
   display: flex;
 }
 .perfil-container img{
-  height: 150%;
-  width: 150;
+  height: 100%;
+  width: 100;
   border-radius: 50%;
   cursor: pointer;
+  overflow: clip;
+  overflow-clip-margin: content-box;
+
 }
 .contenedor-cabezera{
   margin-left: 100px;
@@ -116,12 +120,14 @@ header{
   font-size: 14px;
   font-weight: 600;
   text-align: center;
+
 }
 .historias_diego img{
   height: 80px;
   width: 80%;
   border-radius: 50%;
   cursor: pointer;
+  float: right;
 }
 .linea{
   width: 100%;
@@ -136,6 +142,7 @@ header{
   width: 50%;
   margin: auto;
   padding: 2%;
+  
 }
 .main-nav a{
   color: #333;
@@ -157,4 +164,5 @@ main{
 .mainCont_grid div > img{
   width: 100%;
   cursor: pointer;
+  float: right;
 }
